@@ -1,0 +1,1956 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+/* ----------------------------left section---------------- */
+.left {
+    width: 22%;
+    height: 600px;
+    background-color: black;
+    padding: 2%;
+    position: fixed;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding-top: 0;
+
+}
+
+.l1 {
+    display: flex;
+}
+
+.l1 h2 {
+    margin-top: 0.5em;
+    font-size: 2.5em;
+    color: white;
+}
+
+.l1 p {
+    color: white;
+    text-align: center;
+    margin-left: 2em;
+    margin-top: 1.2em;
+}
+
+.left img {
+    margin: 3em;
+    margin-bottom: 0;
+    height: 250px;
+    width: 200px;
+
+}
+
+.left h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    line-height: 1.4em;
+    color: white;
+}
+
+#p1 {
+    margin-top: 1em;
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icon {
+    margin-left: 3em;
+    margin-top: 1.2em;
+    display: flex;
+}
+
+.icon i {
+    color: #878585;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 0.2s linear;
+
+}
+
+.i1 {
+    margin-left: 4%;
+}
+
+.i1:hover i {
+    color: rgb(100, 206, 98);
+    border: 2px solid rgb(100, 206, 98);
+}
+
+.left button {
+    margin-top: 1em;
+    cursor: pointer;
+    padding: 0.8em;
+    width: 290px;
+    border-radius: 25px;
+    font-size: 1em;
+    border: 2px solid rgb(100, 206, 98);
+    background-color: rgb(100, 206, 98);
+}
+
+.left button:hover {
+    background-color: black;
+    color: rgb(100, 206, 98);
+}
+
+.mid {
+    margin-left: 22em;
+}
+
+/* ----------------------introduce section----------------------- */
+.introduce {
+    height: 900px;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.p2 {
+    width: 130px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1em;
+
+}
+
+
+.introduce h1 {
+    font-size: 4.5em;
+    color: white;
+    margin-top: 1em;
+}
+
+span {
+    color: rgb(100, 206, 98);
+
+}
+
+.p3 {
+    color: gray;
+    margin-top: 1.5em;
+    font-size: 1em;
+    line-height: 1.7em;
+    margin-right: 21em;
+}
+
+.pro {
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    margin-top: 1.5em;
+    margin-left: 32em;
+    border: 2px solid gray;
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+.pro p {
+    margin-top: 70px;
+    margin-left: 20px;
+    color: white;
+}
+
+.b11 {
+    display: flex;
+}
+
+.b1 {
+    height: 100px;
+    width: 200px;
+
+}
+
+.b1 p {
+    color: white;
+    margin-top: 9.6em;
+    line-height: 1.5em;
+    margin-left: -7em;
+}
+
+.b1 h2 {
+    color: rgb(100, 206, 98);
+    text-align: center;
+    margin-top: 0.6em;
+    font-weight: 100;
+    font-size: 5em;
+}
+
+.b2 {
+    height: 150px;
+    width: 200px;
+}
+
+.b2 p {
+    color: white;
+    margin-top: 7em;
+    line-height: 1.5em;
+    margin-left: -3em;
+}
+
+.b2 h2 {
+    color: rgb(100, 206, 98);
+    font-size: 15%;
+    text-align: center;
+    font-size: 5em;
+    margin-right: -1em;
+    font-weight: 100;
+}
+
+/* .b11 {
+    display: flex;
+    border: 2px solid white;
+    background-color: aqua;
+}
+
+.b1 {
+    height: 100px;
+    width: 200px;
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid white;
+    display: block;
+}
+
+.b1 p {
+    color: white;
+    margin-top: 4em;
+    line-height: 1.5em;
+
+}
+
+.b1 h1 {
+    margin: 0%;
+    color: rgb(100, 206, 98);
+}
+
+.b2 {
+    height: 200px;
+    width: 220px;
+    border: 1px solid white;
+    margin-top: -em;
+}
+
+.b2 p {
+    color: white;
+    margin-top: 1em;
+    line-height: 1.5em;
+
+}
+
+.b2 h1 {
+    margin: 0%;
+    color: rgb(100, 206, 98);
+} */
+
+/* -----------------------------------About section------------------------- */
+.about {
+    height: 550px;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.about p {
+    width: 110px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1.5em;
+
+}
+
+.about h1 {
+    color: white;
+    font-size: 3em;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.about h4 {
+    color: #878585;
+    font-weight: 200;
+    margin-top: 2em;
+    line-height: 2em;
+    padding-right: 12em;
+}
+
+/* -----------------------------resume section------------------------ */
+.resume {
+    height: 950px;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.resume p {
+    width: 110px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1.5em;
+}
+
+.resume h1 {
+    color: white;
+    font-size: 3em;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.r1 {
+    margin-top: 5em;
+}
+
+.r1 p1 {
+    color: #878585;
+}
+
+.r1 i {
+    margin-right: 4.5em;
+}
+
+.r1 h2 {
+    color: white;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.r1 h5 {
+    color: #878585;
+    margin-left: 5.5em;
+    margin-top: 1em;
+}
+
+.r1:hover p1 {
+    color: rgb(100, 206, 98);
+}
+
+.r2 {
+    margin-top: 5em;
+}
+
+.r2 p1 {
+    color: #878585;
+}
+
+.r2 i {
+    margin-right: 4.5em;
+}
+
+.r2 h2 {
+    color: white;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.r2 h5 {
+    color: #878585;
+    margin-left: 5.5em;
+    margin-top: 1em;
+}
+
+.r2:hover p1 {
+    color: rgb(100, 206, 98);
+
+}
+
+.r3 {
+    margin-top: 5em;
+}
+
+.r3 p1 {
+    color: #878585;
+}
+
+.r3 i {
+    margin-right: 4.5em;
+}
+
+.r3 h2 {
+    color: white;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.r3 h5 {
+    color: #878585;
+    margin-left: 5.5em;
+    margin-top: 1em;
+}
+
+.r3:hover p1 {
+    color: rgb(100, 206, 98);
+
+}
+
+.r4 {
+    margin-top: 5em;
+}
+
+.r4 p1 {
+    color: #878585;
+}
+
+.r4 i {
+    margin-right: 4.5em;
+}
+
+.r4 h3 {
+    color: white;
+    margin-top: 1em;
+    margin-left: 4em;
+}
+
+.r4:hover p1 {
+    color: rgb(100, 206, 98);
+
+}
+
+/* ----------------------service section------------------------ */
+.service {
+    height: 900px;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.service p1 {
+    width: 110px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1em;
+}
+
+.service h1 {
+    color: white;
+    font-size: 3em;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.boxes {
+    margin-top: 3em;
+}
+
+.box {
+    width: 90%;
+    height: 220px;
+    border: 1px solid gray;
+    border-radius: 17px;
+    margin-top: 0.8em;
+}
+
+.box:hover {
+    border: 1px solid rgb(100, 206, 98);
+}
+
+.box h2 {
+    color: white;
+    margin-top: 2em;
+    margin-left: 2em;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.box i {
+    color: rgb(100, 206, 98);
+    margin-left: 11em;
+
+}
+
+.box p {
+    color: #878585;
+    margin-top: 1em;
+    margin-left: 4em;
+}
+
+.box h5 {
+    color: white;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+/* ----------------skill section------------------ */
+.skills {
+    height: 850px;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.skills p1 {
+    width: 110px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1em;
+}
+
+.skills h1 {
+    color: white;
+    font-size: 3em;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.ads {
+    display: flex;
+}
+
+.container {
+    margin-left: 1em;
+}
+
+.container-in {
+    width: 170px;
+    height: 220px;
+    border-radius: 82px;
+    border: 2px solid #878585;
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+.container-in h2 {
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2em;
+    color: rgb(100, 206, 98);
+    font-weight: 100;
+}
+
+.container-in img {
+    height: 70px;
+    background-color: black;
+    margin-top: 3em;
+    margin-left: 2.8em;
+
+}
+
+.container p {
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.container-in:hover {
+    border: 2px solid rgb(100, 206, 98);
+}
+
+/* ----------------portfolio section------------- */
+
+.portofolio {
+    height: 20%;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.portofolio p1 {
+    width: 110px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1em;
+}
+
+.portofolio h1 {
+    color: white;
+    font-size: 3em;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.portofolio figcaption {
+    color: white;
+    font-size: 2em;
+    margin-top: 0.5em;
+    text-decoration: underline;
+}
+
+.one {
+    margin-left: 2em;
+    margin-top: 6em;
+}
+
+.one img {
+    width: 800px;
+}
+
+.two {
+    display: flex;
+    margin-top: 6em;
+    margin-left: 1em;
+}
+
+.two1 img {
+    width: 400px;
+    height: 300px;
+}
+
+.two2 {
+    margin-left: 1.5em;
+}
+
+.two2 img {
+    height: 300px;
+    width: 400px;
+}
+
+.three {
+    margin-top: 6em;
+    margin-left: 2em;
+}
+
+.three img {
+    width: 800px;
+}
+
+/* ------------------testimonial section------------------ */
+
+.test {
+    height: 950px;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.test p1 {
+    width: 110px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1em;
+}
+
+.test h1 {
+    color: white;
+    font-size: 3em;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.tests {
+    display: flex;
+    margin-top: 2em;
+}
+
+.test1 {
+    height: 350px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 3em;
+}
+
+.mypara {
+    color: white;
+    margin: 2em;
+    line-height: 2em;
+}
+
+.test2 {
+    height: 350px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 3em;
+    margin-left: 2em;
+
+}
+
+.test3 {
+    height: 350px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 3em;
+}
+
+.test4 {
+    height: 350px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 3em;
+    margin-left: 2em;
+}
+
+.t-1 {
+    display: flex;
+    margin: 3em;
+}
+
+.t-1 img {
+    height: 60px;
+    width: 60px;
+    border-radius: 10em;
+}
+
+.t-11 {
+    margin-left: 1em;
+}
+
+.t-11 h2 {
+    font-size: 1.5em;
+    color: white;
+}
+
+.t-11 h4 {
+    margin-top: 0.5em;
+    color: rgb(100, 206, 98);
+    font-weight: 100;
+}
+
+/* -----------------brand section------------------ */
+.brand {
+    height: 750px;
+    background-color: black;
+}
+
+.brand h1 {
+    color: white;
+    padding-left: 3em;
+    padding-top: 5em;
+}
+
+.b1 {
+    display: flex;
+    margin-left: 8em;
+    margin-top: 5em;
+}
+
+.b1 img {
+    height: 150px;
+}
+
+.b2 {
+    display: flex;
+    margin-top: 8em;
+    margin-left: 8em;
+}
+
+.b2 img {
+    height: 150px;
+}
+
+/* --------------------price section------------------------- */
+.price {
+    height: 950px;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.price p1 {
+    width: 110px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1em;
+}
+
+.price h1 {
+    color: white;
+    font-size: 3em;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.detail {
+    display: flex;
+}
+
+.basic {
+    height: 550px;
+    width: 300px;
+    border: 1px solid #878585;
+    border-radius: 2em;
+    padding: 2em;
+    margin-top: 2.5em;
+}
+
+.basic1 {
+    display: flex;
+}
+
+.basic1 h2 {
+    color: white;
+    font-weight: 100;
+
+}
+
+.basic1 p {
+    color: #878585;
+    margin-left: 1em;
+    text-align: right;
+}
+
+.heading {
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.heading h3 {
+    color: white;
+    font-size: 3em;
+    color: rgb(100, 206, 98);
+    font-weight: 100;
+}
+
+.heading h5 {
+    color: #878585;
+    margin-left: 1em;
+    margin-top: 0.8em;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.basic ul {
+    color: white;
+    margin-top: 3em;
+    line-height: 2em;
+    text-align: left;
+}
+
+.basic button {
+    padding: 1em;
+    width: 250px;
+    margin-top: 6em;
+    margin-left: 1.8em;
+    border-radius: 2em;
+    font-size: 1em;
+    border: none;
+    background-color: rgb(100, 206, 98);
+}
+
+.basic button:hover {
+    border: 2px solid rgb(100, 206, 98);
+    background-color: black;
+    color: rgb(100, 206, 98);
+}
+
+.basic:hover {
+    border: 1px solid rgb(100, 206, 98);
+}
+
+.premium {
+    height: 550px;
+    width: 300px;
+    border: 1px solid #878585;
+    border-radius: 2em;
+    padding: 2em;
+    margin-left: 1.5em;
+    margin-top: 2.5em;
+}
+
+.premium1 {
+    display: flex;
+}
+
+.premium1 h2 {
+    color: white;
+    font-weight: 100;
+
+}
+
+.premium1 p {
+    color: #878585;
+    margin-left: 1em;
+    text-align: right;
+}
+
+.heading {
+    display: flex;
+    margin-top: 2em;
+}
+
+.heading h3 {
+    color: white;
+    font-size: 3em;
+    color: rgb(100, 206, 98);
+    font-weight: 100;
+
+}
+
+.heading h5 {
+    color: #878585;
+    margin-left: 1em;
+    margin-top: 0.8em;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.premium ul {
+    color: white;
+    margin-top: 1em;
+    line-height: 2em;
+    text-align: left;
+}
+
+.premium button {
+    padding: 1em;
+    width: 250px;
+    margin-top: 4em;
+    margin-left: 1.8em;
+    border-radius: 2em;
+    font-size: 1em;
+    border: none;
+    background-color: rgb(100, 206, 98);
+}
+
+.premium button:hover {
+    border: 2px solid rgb(100, 206, 98);
+    background-color: black;
+    color: rgb(100, 206, 98);
+}
+
+.premium:hover {
+    border: 1px solid rgb(100, 206, 98);
+}
+
+#last {
+    color: white;
+    margin-top: 3em;
+    line-height: 2em;
+}
+
+/* -----------------contact section------------------ */
+.contact {
+    height: 950px;
+    background-color: black;
+    padding-top: 5em;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.contact p1 {
+    width: 110px;
+    color: white;
+    border: 2px solid gray;
+    padding: 0.5em;
+    border-radius: 18px;
+    padding-left: 1em;
+}
+
+.contact h1 {
+    color: white;
+    font-size: 3em;
+    margin-top: 1.2em;
+    padding-right: 2em;
+}
+
+.contact h3 {
+    color: white;
+    margin-top: 1.5em;
+    font-weight: 100;
+}
+
+.form {
+    /* border: 2px solid white; */
+    color: white;
+}
+
+input {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 0.6em 0;
+    font-size: 1em;
+}
+
+sup {
+    color: red;
+}
+
+.f {
+    display: flex;
+}
+
+.form1 {
+    margin-top: 3em;
+}
+
+.form2 {
+    margin-left: 9em;
+    margin-top: 3em;
+}
+
+.form2 select {
+    color: #878585;
+    width: 350px;
+    padding: 0.6em 0;
+    font-size: 1em;
+    background-color: black;
+    border: none;
+}
+
+textarea {
+    padding: 0.6em 0;
+    font-size: 1.4em;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.contact button {
+    padding: 1em;
+    margin-top: 3em;
+    width: 250px;
+    border: none;
+    border-radius: 5em;
+    font-size: 1em;
+    background-color: rgb(100, 206, 98);
+}
+
+.contact button:hover {
+    border: 1px solid rgb(100, 206, 98);
+    color: rgb(100, 206, 98);
+    background-color: black;
+}
+
+/* -----------------------right section----------------------- */
+.right {
+    border: 1px solid #878585;
+    background-color: black;
+    border-radius: 2em;
+    height: 380px;
+    width: 55px;
+    position: fixed;
+    margin-left: 76em;
+    margin-top: 9em;
+}
+
+.right i {
+    color: #878585;
+    margin-left: 0.6em;
+    font-size: 1.5em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.right i:hover {
+    color: rgb(100, 206, 98);
+}
+
+/* -----------------------hamburger menu section----------------------- */
+.top {
+    border: 1px solid #878585;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 76em;
+    margin-top: 4em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.top i {
+    font-size: 2em;
+    margin-top: 0.3em;
+    cursor: pointer;
+}
+
+.top p {
+    color: #878585;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.top ul {
+    position: fixed;
+    width: 22%;
+    height: 100%;
+    text-align: left;
+    background-color: black;
+    box-shadow: 15px 15px 20px 10px #878585;
+    color: #878585;
+    right: -100%;
+    top: 0;
+    transition: all 0.2s;
+}
+
+.top ul li {
+    margin-top: 2em;
+}
+
+.top ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~ul {
+    right: 0;
+}
+
+.top:hover {
+    border: 1px solid rgb(100, 206, 98);
+    color: rgb(100, 206, 98);
+}
+
+.top li i {
+    font-size: 1em;
+    margin-left: 5em;
+    margin-right: 2em;
+}
+
+.top li i:hover {
+    color: rgb(100, 206, 98);
+}
+
+.i {
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+.i i {
+    font-size: 1em;
+    margin-left: 1em;
+}
+
+.i i:hover {
+    color: rgb(100, 206, 98);
+}
+
+@media (max-width: 1000px) {
+
+    .main {
+        display: block;
+        width: 100%;
+
+    }
+
+    .icon {
+        justify-content: center;
+        margin-left: -2em;
+    }
+
+    .left {
+        width: 82%;
+        position: relative;
+        text-align: center;
+        margin: auto;
+    }
+
+    .introduce {
+        margin-left: -20em;
+        /* text-align: left; */
+        width: 82%;
+    }
+
+    .introduce h1 {
+        font-size: 3em;
+
+    }
+
+    .p3 {
+        width: 350px;
+        text-align: left;
+    }
+
+    .about {
+        margin-left: -20em;
+    }
+
+    .resume {
+        margin-left: -20em;
+    }
+
+    .service {
+        margin-left: -20em;
+        height: 500px;
+    }
+
+    .service i {
+        display: none;
+    }
+
+    .boxes {
+        display: flex;
+    }
+
+    .box {
+        width: 250px;
+        margin-right: 1em;
+
+    }
+
+    .box h2 {
+        font-size: 1.5em;
+    }
+
+    .box p {
+        margin-right: 4em;
+    }
+
+    .skills {
+        margin-left: -20em;
+    }
+
+    .portofolio {
+        margin-left: -20em;
+    }
+
+    .one img {
+        width: 650px;
+    }
+
+    .two img {
+        width: 350px;
+        height: 200px;
+    }
+
+    .three img {
+        width: 650px;
+    }
+
+    .test {
+        margin-left: -20em;
+    }
+
+    .brand {
+        margin-left: -20em;
+    }
+
+    .price {
+        margin-left: -20em;
+    }
+
+    .contact {
+        margin-left: -20em;
+    }
+
+    .top {
+        position: fixed;
+    }
+}
+
+@media (max-width:900px) {
+    .main {
+        display: block;
+        width: 100%;
+
+    }
+
+    .icon {
+        justify-content: center;
+        margin-left: -2em;
+    }
+
+    .left {
+        width: 950px;
+        position: relative;
+        text-align: center;
+        padding: 5em;
+    }
+
+    .introduce {
+        margin-left: -25em;
+        width: 950px;
+    }
+
+    .introduce h1 {
+        font-size: 3em;
+        width: 500px;
+    }
+
+    .pro {
+        margin-left: -1em;
+    }
+
+    .b11 {
+
+        margin-left: -7em;
+    }
+
+    .p3 {
+        width: 350px;
+        text-align: left;
+    }
+
+    .about {
+        margin-left: -25em;
+        width: 950px;
+    }
+
+    .resume {
+        margin-left: -25em;
+        width: 950px;
+    }
+
+    .service {
+        width: 950px;
+        margin-left: -25em;
+        height: 500px;
+    }
+
+    .skills {
+        width: 950px;
+        margin-left: -25em;
+    }
+
+    .portofolio {
+        width: 950px;
+        margin-left: -25em;
+    }
+
+    .test {
+        width: 950px;
+        margin-left: -25em;
+    }
+
+    .brand {
+        width: 950px;
+        margin-left: -13em;
+    }
+
+    .price {
+        width: 950px;
+        margin-left: -25em;
+    }
+
+    .contact {
+        width: 950px;
+        margin-left: -25em;
+    }
+
+    .top {
+        position: fixed;
+    }
+}
+
+@media (max-width:460px) {
+    body {
+        overflow-x: hidden;
+        background-color: black;
+    }
+
+    .main {
+        display: block;
+        width: 100%;
+
+    }
+
+    .left {
+        width: 950px;
+        height: 90%;
+        text-align: center;
+        padding: 5em;
+    }
+
+    .l1 h2 {
+        font-size: 4em;
+    }
+
+    .l1 p {
+        margin-left: 5em;
+        font-size: 3em;
+    }
+
+    .left h1 {
+        width: 550px;
+        margin-left: 3em;
+        font-size: 3em;
+    }
+
+    #p1 {
+        font-size: 3em;
+    }
+
+    .i1 i {
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+        font-size: 4em;
+        padding-top: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .left button {
+        width: 600px;
+        font-size: 3em;
+        margin-top: 2em;
+    }
+
+    .introduce {
+        height: 90%;
+        padding-top: 10em;
+    }
+
+    .p2 {
+        width: 400px;
+        font-size: 3em;
+        border-radius: 5em;
+        padding: 0.5em;
+    }
+
+    .introduce h1 {
+        font-size: 6em;
+        width: 900px;
+    }
+
+    .p3 {
+        font-size: 3em;
+        width: 900px;
+    }
+
+    .pro {
+        height: 500px;
+        width: 500px;
+        border-radius: 50%;
+
+    }
+
+    .pro p {
+        margin-top: 5em;
+        margin-left: 2em;
+        font-size: 3em;
+    }
+
+    .b1 h2 {
+        font-size: 9em;
+        margin-left: 2em;
+    }
+
+    .b1 p {
+        margin-top: 7em;
+        font-size: 2em;
+    }
+
+    .b2 h2 {
+        font-size: 9em;
+        margin-left: 4em;
+        margin-top: 0.2em;
+    }
+
+    .b2 p {
+        margin-top: 6em;
+        font-size: 2em;
+    }
+
+    .about {
+        height: 90%;
+        padding-top: 25em;
+        border: none;
+
+    }
+
+    .about p {
+        width: 300px;
+        font-size: 3em;
+        border-radius: 5em;
+        padding: 0.5em;
+    }
+
+    .about h1 {
+        font-size: 6em;
+        width: 900px;
+    }
+
+    .about h4 {
+        font-size: 2.5em;
+        width: 900px;
+        line-height: 1.5em;
+    }
+
+    .resume {
+        height: 95%;
+        padding-top: 25em;
+    }
+
+    .resume p {
+        width: 300px;
+        font-size: 3em;
+        border-radius: 5em;
+        padding: 0.5em;
+    }
+
+    .resume h1 {
+        font-size: 4.9em;
+        width: 900px;
+    }
+
+    .r1 p1 {
+        font-size: 2em;
+    }
+
+    .r1 h2 {
+        font-size: 3em;
+        width: 100%;
+        margin-left: 3.5em;
+        font-weight: 100;
+    }
+
+    .r1 h5 {
+        font-size: 2em;
+        margin-left: 5em;
+    }
+
+    .r2 p1 {
+        font-size: 2em;
+    }
+
+    .r2 h2 {
+        font-size: 3em;
+        width: 850px;
+        margin-left: 3.5em;
+        font-weight: 100;
+    }
+
+    .r2 h5 {
+        font-size: 2em;
+        margin-left: 5em;
+    }
+
+    .r3 p1 {
+        font-size: 2em;
+    }
+
+    .r3 h2 {
+        font-size: 3em;
+        width: 8100%;
+        margin-left: 3.5em;
+        font-weight: 100;
+    }
+
+    .r3 h5 {
+        font-size: 2em;
+        margin-left: 5em;
+    }
+
+    .r4 p1 {
+        font-size: 2em;
+    }
+
+    .r4 h3 {
+        font-size: 2em;
+        margin-left: 5em;
+        font-weight: 100;
+    }
+
+    .service {
+        height: 90%;
+        padding-top: 25em;
+    }
+
+    .service p1 {
+        width: 600px;
+        font-size: 3em;
+        border-radius: 5em;
+        padding: 0.5em;
+    }
+
+    .service h1 {
+        width: 900px;
+        font-size: 6em;
+    }
+
+    .boxes {
+        display: block;
+    }
+
+    .box {
+        width: 900px;
+        height: 280px;
+        margin-top: 2em;
+    }
+
+    .box h2 {
+        font-size: 3em;
+        margin-top: 1em;
+    }
+
+    .box p {
+        font-size: 2em;
+        width: 900px;
+        margin-left: 1em;
+    }
+
+    .skills {
+        height: 90%;
+        padding-top: 25em;
+    }
+
+    .skills p1 {
+        width: 600px;
+        font-size: 3em;
+        border-radius: 5em;
+        padding: 0.5em;
+    }
+
+    .skills h1 {
+        width: 900px;
+        font-size: 6.5em;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .ad {
+        display: flex;
+        margin-left: 4em;
+    }
+
+    .container p {
+        font-size: 2em;
+    }
+
+    .container-in {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .container-in img {
+        margin-left: 7em;
+        margin-top: 5em;
+    }
+
+    .portofolio {
+        height: 90%;
+        padding-top: 25em;
+    }
+
+    .portofolio p1 {
+        width: 600px;
+        font-size: 3em;
+        border-radius: 5em;
+        padding: 0.5em;
+    }
+
+    .portofolio h1 {
+        width: 900px;
+        font-size: 6.5em;
+    }
+
+    .one img {
+        width: 950px;
+    }
+
+    .two {
+        display: block;
+    }
+
+    .two1 img {
+        width: 950px;
+        height: 500px;
+    }
+
+    .two2 img {
+        margin-top: 7em;
+        width: 950px;
+        height: 500px;
+    }
+
+    .three img {
+        width: 950px;
+    }
+
+    .test {
+        height: 90%;
+        padding-top: 25em;
+    }
+
+    .test p1 {
+        width: 600px;
+        font-size: 3em;
+        border-radius: 5em;
+        padding: 0.5em;
+    }
+
+    .test h1 {
+        font-size: 6em;
+        width: 900px;
+        font-weight: 100;
+    }
+
+    .tests {
+        display: block;
+    }
+
+    .test1 {
+        width: 900px;
+        height: 800px;
+        margin-left: 2em;
+    }
+
+    .test1 p {
+        font-size: 2.6em;
+    }
+
+    .test1 img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .t-11 {
+        margin-left: 4em;
+        margin-top: 2em;
+    }
+
+    .t-11 h2 {
+        font-size: 4em;
+    }
+
+    .t-11 h4 {
+        font-size: 3em;
+    }
+
+    .test2 {
+        width: 900px;
+        height: 800px;
+        margin-top: 2em;
+    }
+
+    .test2 p {
+        font-size: 2.6em;
+    }
+
+    .test2 img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .test3 {
+        width: 900px;
+        height: 800px;
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+
+    .test3 p {
+        font-size: 2.6em;
+    }
+
+    .test3 img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .test4 {
+        width: 900px;
+        height: 800px;
+        margin-top: 2em;
+    }
+
+    .test4 p {
+        font-size: 2.6em;
+    }
+
+    .test4 img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .brand {
+        height: 90%;
+       
+    }
+
+    .brand h1 {
+        font-size: 5em;
+        margin-left: -3em;
+        width: 900px;
+    }
+
+    .b1 {
+        margin-left: 0;
+    }
+
+    .b2 {
+        margin-left: -0.5em;
+    }
+
+    .price {
+        height: 90%;
+        padding-top: 25em;
+    
+    }
+
+    .price p1 {
+        width: 600px;
+        font-size: 3em;
+        border-radius: 5em;
+        padding: 0.5em;
+    }
+
+    .price h1 {
+        font-size: 6em;
+    }
+
+    .detail {
+        display: block;
+    }
+
+    .basic {
+        width: 800px;
+        height: 90%;
+        margin-left: 4em;
+    }
+
+    .basic1 h2 {
+        font-size: 4em;
+    }
+
+    .basic1 p {
+        font-size: 3em;
+        margin-left: 1em;
+    }
+
+    .heading {
+        margin-top: 3em;
+    }
+
+    .heading h3 {
+        font-size: 7em;
+    }
+
+    .heading h5 {
+        font-size: 4em;
+    }
+
+    .basic ul li {
+        font-size: 4em;
+        line-height: 2em;
+
+    }
+
+    .basic button {
+        width: 600px;
+        font-size: 2em;
+        margin-left: 3em;
+    }
+
+    .premium {
+        width: 800px;
+        height: 90%;
+        margin-left: 4em;
+    }
+
+    .premium1 h2 {
+        font-size: 4em;
+    }
+
+    .premium1 p {
+        font-size: 3em;
+        margin-left: 1em;
+    }
+
+    .heading {
+        margin-top: 3em;
+    }
+
+    .heading h3 {
+        font-size: 7em;
+    }
+
+    .heading h5 {
+        font-size: 4em;
+    }
+
+    .premium ul li {
+        font-size: 4em;
+        line-height: 2em;
+
+    }
+
+    .premium button {
+        width: 600px;
+        font-size: 2em;
+        margin-left: 3em;
+    }
+
+    #last {
+        font-size: 2.5em;
+        margin-left: 1em;
+    }
+
+    .contact {
+        height: 90%;
+        padding-top: 25em;
+       
+    }
+
+    .contact p1 {
+        width: 600px;
+        font-size: 3em;
+        border-radius: 5em;
+    }
+
+    .contact h1 {
+        font-size: 5.7em;
+        width: 900px;
+    }
+
+    .contact h3 {
+        font-size: 3em;
+        margin-left: 1em;
+    }
+
+    .f {
+        display: block;
+    }
+
+    .form {
+        font-size: 2em;
+    }
+
+    .form2 {
+        margin-left: 0;
+    }
+
+    .contact button {
+        width: 600px;
+        font-size: 3em;
+        margin-left: 4em;
+        margin-bottom: 3em;
+    }
+}
